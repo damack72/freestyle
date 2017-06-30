@@ -1,0 +1,193 @@
+body {
+    font-family: Roboto,sans-serif,Verdana,Arial;
+}
+body > header {
+    width: 100%;
+    overflow-y: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 0!important;
+    z-index: 7777;
+    display: block;
+    color: #fff;
+    background: rgba(0,0,0,.3);
+    -webkit-transition: background .5s linear 0s;
+    -moz-transition: background .5s linear 0s;
+    -ms-transition: background .5s linear 0s;
+    -o-transition: background .5s linear 0s;
+    transition: background .5s linear 0s;
+}
+body>header a.logo-desktop {
+    float: left;
+    display: block;
+    padding: 8px 0 0;
+}
+body>header a, body>header a:focus, body>header a:hover {
+    color: #fff;
+    text-transform: uppercase;
+}
+body>header nav.menu-desktop ul li a:hover {
+    color: #71c6fc;
+    background: 0 0;
+    text-decoration: none;
+}
+body>header .hamburger-logo-and-cart {
+    height: 61px;
+}
+body>header .hamburger-logo-and-cart .hamburger {
+    padding-top: 15px;
+    float: left;
+    width: 25%;
+}
+body>header .hamburger-logo-and-cart .logo {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 15px;
+}
+body>header .hamburger-logo-and-cart .hamburger a#toggle-menu {
+    border-radius: 3px;
+    outline: 0;
+}
+body>header a, body>header a:focus, body>header a:hover {
+    color: #fff;
+    text-transform: uppercase;
+}
+body>header .hamburger-logo-and-cart .hamburger a#toggle-menu i {
+    font-size: 20px;
+}
+body>header .hamburger-logo-and-cart .logo a.logo-mobile img {
+    display: inline-block;
+    height: 30px;
+}
+.video-wrapper {
+    background: #eee;
+}
+.make-room-for-brandbar {
+    margin-top: 40px;
+}
+.homeblocks {
+    background: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #aaa;
+    overflow: hidden;
+}
+.homeblocks .block {
+    padding: 0;
+}
+.homeblocks .block a article {
+    padding: 0!important;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+.homeblocks .block a article .image-with-overlay {
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease 0s;
+}
+.homeblocks .block a article .image-with-overlay img {
+    display: block;
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+.homeblocks .block a article h2 {
+    font-size: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px 0;
+    color: #fff;
+    margin: 0;
+}
+.background-black-50pct {
+    background: rgba(0,0,0,.5);
+}
+.homeblocks .block a article:hover {
+    background-size: 103% 103%;
+}
+.homeblocks .block a article .image-with-overlay:hover {
+    background-color: rgba(0,0,0,.33);
+}
+.logo {
+	display: block;
+    width: auto;
+    max-height: 45px;	
+}
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+}
+.video-wrapper .text {
+    position: absolute;
+    padding-top: 18%;
+    z-index: 100;
+}
+body>header nav.menu-desktop ul {
+    margin: 0;
+    float: right;
+    list-style: none;
+    display: table;
+}
+body>header nav.menu-desktop ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+body>header nav.menu-desktop ul li a {
+    display: block;
+    position: relative;
+    padding: 0;
+    line-height: 60px;
+    margin: 0 0 0 25px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: 0;
+    -webkit-transition: color .5s linear 0s;
+    -moz-transition: color .5s linear 0s;
+    -ms-transition: color .5s linear 0s;
+    -o-transition: color .5s linear 0s;
+    transition: color .5s linear 0s;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+header.navbar-fixed-top {
+	top: 40px;
+}
+.brandswitch {
+	position: fixed;
+	background: #333;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    z-index: 1050;
+}
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+}
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+
+}
